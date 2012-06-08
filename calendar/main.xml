@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#EBEBEB" >
+
+    <TableRow
+        android:id="@+id/selectionRow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/backYearButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="&lt; &lt;" />
+
+        <Button
+            android:id="@+id/backMonthButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="&lt;" />
+
+        <TextView
+            android:id="@+id/monthYearTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="Month Year" />
+
+        <Button
+            android:id="@+id/nextMonthButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=">" />
+
+        <Button
+            android:id="@+id/nextYearButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="> >" />
+
+    </TableRow>
+    
+    
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/calendarTitleGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:numColumns="7" >
+
+    </GridView>
+    
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/calendarGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:numColumns="7" >
+
+    </GridView>
+
+</TableLayout>

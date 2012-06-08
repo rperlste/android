@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animal_names">
+        <item name="alligator">Alligator</item>
+		<item name="antelope">Antelope</item>
+        <item name="bear">Bear</item>
+        <item name="bison">Bison</item>
+        <item name="butterfly">Butterfly</item>
+    </string-array>
+    <string-array name="animal_uris">
+        <item name="alligator">http://www.kbears.com/animals/aliga/print.html</item>
+		<item name="antelope">http://www.kbears.com/animals/ante/print.html</item>
+        <item name="bear">http://www.kbears.com/animals/bears/print.html</item>
+        <item name="bison">http://www.kbears.com/animals/bison/print.html</item>
+        <item name="butterfly">http://www.kbears.com/animals/butter/print.html</item>
+    </string-array>
+</resources>

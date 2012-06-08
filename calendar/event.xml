@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB" >
+
+    	<TextView
+	    android:id="@+id/eventTitleTextView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="@string/event_title_text" android:textSize="12pt" android:gravity="center" android:textColor="#000" android:textStyle="bold" android:singleLine="true"/>
+	
+	<TextView 
+	    android:id="@+id/eventDayTextView"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textSize="12pt" android:gravity="center" android:textColor="#000" android:textStyle="bold" android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Add event" />
+   
+   	    
+	    <TableLayout 
+	        android:id="@+id/eventTableLayout"
+	        android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stretchColumns="1,2,3">  
+		    
+		    <TableRow 
+			    android:id="@+id/eventTableRow0"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" >
+			  
+		        <TextView
+			        android:id="@+id/eventItemTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:padding="2dp"
+			        android:textColor="@android:color/black"
+			        android:textSize="20dp"
+			        android:layout_marginBottom="1dp" />
+		 	</TableRow>
+		 	
+		    <TableRow 
+			    android:id="@+id/eventTableRow1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+       
+		        <TextView
+			        android:id="@+id/eventDescriptionTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:padding="2dp"
+			        android:textColor="@android:color/black"
+			        android:textSize="20dp"
+			        android:layout_marginBottom="1dp" />
+		 	</TableRow>
+   
+		    <TableRow>
+		        
+		        <ImageView 
+			        android:id="@+id/eventItemImageView"
+			        android:layout_width="50dp"
+			    	android:layout_height="wrap_content"
+			    	android:layout_weight="1"/>
+		        
+		        <TextView 
+		            android:id="@+id/eventTimeTextView"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textColor="@android:color/black"
+			 		android:layout_gravity="center"
+			        android:textSize="20dp"
+			        android:layout_weight="0"/>
+		
+			    
+		        
+		    </TableRow>
+	        
+   		</TableLayout>
+   
+
+</TableLayout>
+
