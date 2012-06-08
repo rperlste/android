@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PERLSTEIN_FINAL - Colorado Arbor Guide</string>
+    <string name="browse">Browse</string>
+    <string name="search">Search</string>
+   	<string name="button_image">Google Images</string>
+   	<string name="button_info">More Info</string>
+    
+    <string name="bark_color">Bark Color</string>
+    <string name="bark_texture">Bark Texture</string>
+    <string name="bark_thickness">Bark Thickness</string>
+    <string name="leaf_color">Leaf Color</string>
+    <string name="leaf_texture">Leaf Texture</string>
+    <string name="leaf_length">Leaf Length</string>
+    <string name="leaf_type">Leaf Texture and Attributes</string>
+    <string name="fruit_shape">Fruit Shape</string>
+    <string name="fruit_color">Fruit Color</string>
+    <string name="fruit_length">Fruit Length</string>
+    <string name="fruit_seeds">Seed Attributes</string>
+    <string name="elevation">Current Elevation</string>
+    <string name="height">Height</string>
+    <string name="habitat_region">Habitat Characteristics</string>
+    <string name="habitat_temperature">Habitat Temperature</string>
+    <string name="fire">Susceptibility to Fire</string>
+ 
+    
+    
+   	<string name="edit">Edit</string>
+
+</resources>

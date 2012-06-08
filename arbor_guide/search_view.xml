@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+   android:layout_height="match_parent">
+   
+<LinearLayout 
+   android:id="@+id/slideshowListItemLinearLayout"
+   android:layout_width="match_parent" 
+   android:layout_height="match_parent"
+   android:orientation="vertical">
+   
+    <Button
+        android:id="@+id/searchViewButton"
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content" 
+      	android:layout_margin="8dp"
+      	android:text="@string/search"  />
+        
+   
+    
+   <!-- BARK COLOR -->
+   <TextView android:id="@+id/barkColorTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/bark_color">
+   </TextView>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/barkColorInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/barkColorButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- BARK TEXTURE -->
+   <TextView android:id="@+id/barkTextureTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/bark_texture">
+   </TextView>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/barkTextureInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/barkTextureButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- BARK THICKNESS -->
+   <TextView android:id="@+id/barkThicknessTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/bark_thickness"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/barkThicknessInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/barkThicknessButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- LEAF COLOR -->
+   <TextView android:id="@+id/leafColorTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/leaf_color"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/leafColorInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/leafColorButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- LEAF TYPE -->
+   <TextView 
+      android:id="@+id/leafTypeTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/leaf_type"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/leafTypeInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/leafTypeButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- LEAF LENGTH -->
+   <TextView android:id="@+id/leafLengthTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/leaf_length"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/leafLengthInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/leafLengthButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- FRUIT SHAPE -->
+   <TextView android:id="@+id/fruitShapeTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/fruit_shape"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/fruitShapeInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/fruitShapeButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- FRUIT COLOR -->
+   <TextView android:id="@+id/fruitColorTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/fruit_color"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/fruitColorInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/fruitColorButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- FRUIT LENGTH -->
+   <TextView android:id="@+id/fruitLengthTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/fruit_length"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/fruitLengthInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/fruitLengthButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- FRUIT SEEDS -->
+   <TextView android:id="@+id/fruitSeedsTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/fruit_seeds"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/fruitSeedsInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/fruitSeedsButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- ELEVATION -->
+   <TextView android:id="@+id/elevationTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/elevation"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/elevationInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/elevationButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- HEIGHT -->
+   <TextView android:id="@+id/heightTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/height"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/heightInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/heightButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- HABITAT REGION -->
+   <TextView android:id="@+id/habitatRegionTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/habitat_region"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/habitatRegionInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/habitatRegionButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- HABITAT TEMPERATURE -->
+   <TextView android:id="@+id/habitatTempTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/habitat_temperature"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/habitatTempInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/habitatTempButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   <!-- FIRE -->
+   <TextView android:id="@+id/fireTitle" 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:layout_margin="8dp" 
+      android:textStyle="bold" 
+      android:textSize="18sp"
+      android:text="@string/fire"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+         
+          <TextView 
+              android:id="@+id/fireInfoText"
+              android:layout_weight="1"
+              android:layout_gravity="left"
+              android:layout_width="fill_parent" 
+              android:layout_height="match_parent"
+              android:layout_margin="8dp"/>
+        
+          <Button
+              android:id="@+id/fireButton"
+              android:layout_gravity="right"
+              android:layout_width="wrap_content" 
+              android:layout_height="match_parent"
+              android:text="@string/edit"
+              android:layout_margin="8dp"
+           />
+   </LinearLayout>
+   
+   
+   
+</LinearLayout>
+</ScrollView>
